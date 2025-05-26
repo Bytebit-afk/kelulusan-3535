@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Pengumuman Kelulusan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Daftar Kelulusan Siswa Kelas 9</h1>
+  <table id="tabel-kelulusan">
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>Kelas</th>
+        <th>NISN</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="daftar-siswa"></tbody>
+  </table>
+
+  <script>
+    fetch("data.json")
+      .then(res => res.json())
+      .then(data => {
+        const tbody = document.getElementById("daftar-siswa");
+        data.forEach((siswa, index) => {
+          const tr = document.createElement("tr");
+          tr.innerHTML = `
+            <td>${index + 1}</td>
+            <td>${siswa.nama}</td>
+            <td>${siswa.kelas}</td>
+            <td>${siswa.nisn}</td>
+            <td>${siswa.keterangan}</td>
+          `;
+          tbody.appendChild(tr);
+        });
+      });
+  </script>
+</body>
+</html>
