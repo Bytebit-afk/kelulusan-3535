@@ -1,14 +1,1717 @@
 [
   {
-    "nama": "Ahmad Hadi",
-    "kelas": "IX-1",
-    "nisn": "0105002333",
-    "keterangan": "LULUS"
+    "NO.": 1,
+    "Kelas": "IX - 1",
+    "NISN": "0105002333",
+    "NAMA": "ABBAS",
+    "Keterangan": "LULUS"
   },
   {
-    "nama": "Putri Ayu",
-    "kelas": "IX-1",
-    "nisn": "3102589325",
-    "keterangan": "LULUS"
+    "NO.": 2,
+    "Kelas": "IX - 1",
+    "NISN": 3102589325,
+    "NAMA": "AHMAD FAHRIZAL",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 3,
+    "Kelas": "IX - 1",
+    "NISN": "0102604009",
+    "NAMA": "ALDIANSYAH ARAFAT",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 4,
+    "Kelas": "IX - 1",
+    "NISN": "0117139043",
+    "NAMA": "ASHIKA SAFA SHAKILA CHANIAGO",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 5,
+    "Kelas": "IX - 1",
+    "NISN": "0107378097",
+    "NAMA": "AULIA KHAIRUNISA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 6,
+    "Kelas": "IX - 1",
+    "NISN": "0109241956",
+    "NAMA": "BIMA ROBBY AL FALLAH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 7,
+    "Kelas": "IX - 1",
+    "NISN": "0105812117",
+    "NAMA": "DEBY PUSPITA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 8,
+    "Kelas": "IX - 1",
+    "NISN": "0093601255",
+    "NAMA": "ENDA AZALISA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 9,
+    "Kelas": "IX - 1",
+    "NISN": "0094346189",
+    "NAMA": "FERRY ROSLANA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 10,
+    "Kelas": "IX - 1",
+    "NISN": 3104806043,
+    "NAMA": "IBRAHIM OMAR",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 11,
+    "Kelas": "IX - 1",
+    "NISN": "0118723602",
+    "NAMA": "INDAH SYAKEYLA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 12,
+    "Kelas": "IX - 1",
+    "NISN": "0108082227",
+    "NAMA": "M ADIT SYAHPUTRA RITONGA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 13,
+    "Kelas": "IX - 1",
+    "NISN": "0103198596",
+    "NAMA": "MEGA SOFIAH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 14,
+    "Kelas": "IX - 1",
+    "NISN": 3091362054,
+    "NAMA": "MIFTAHUR RIZKI YURI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 15,
+    "Kelas": "IX - 1",
+    "NISN": "0091551643",
+    "NAMA": "MUHAMMAD RADITIYA PRANATA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 16,
+    "Kelas": "IX - 1",
+    "NISN": "0106810968",
+    "NAMA": "MUHAMMAD RAFLI RAMADHANA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 17,
+    "Kelas": "IX - 1",
+    "NISN": "0118556261",
+    "NAMA": "MUSTHOFA DZAKI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 18,
+    "Kelas": "IX - 1",
+    "NISN": "0104815357",
+    "NAMA": "MUTIA KASIH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 19,
+    "Kelas": "IX - 1",
+    "NISN": 3100593118,
+    "NAMA": "NADHIRA AQILA NINGRUM",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 20,
+    "Kelas": "IX - 1",
+    "NISN": 3090704894,
+    "NAMA": "NAZWA AMALIA PUTRI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 21,
+    "Kelas": "IX - 1",
+    "NISN": "0099269992",
+    "NAMA": "PUSPA NATASYA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 22,
+    "Kelas": "IX - 1",
+    "NISN": "0088636522",
+    "NAMA": "RAFFI ANANDA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 23,
+    "Kelas": "IX - 1",
+    "NISN": "0094969883",
+    "NAMA": "REFALIN KHAIRUNISA AHMADI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 24,
+    "Kelas": "IX - 1",
+    "NISN": "0101649083",
+    "NAMA": "SHAFA AZZARA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 25,
+    "Kelas": "IX - 1",
+    "NISN": "0102232399",
+    "NAMA": "SOFYAN REYFANDI AULIA RAMBE",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 26,
+    "Kelas": "IX - 1",
+    "NISN": 3092106556,
+    "NAMA": "SYAVA BILBINA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 27,
+    "Kelas": "IX - 1",
+    "NISN": "0104997718",
+    "NAMA": "TENGKU MUHAMMAD NOUFAL HAFIDZ",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 28,
+    "Kelas": "IX - 1",
+    "NISN": "0108711487",
+    "NAMA": "UMMI HANIPA LUBIS",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 29,
+    "Kelas": "IX - 1",
+    "NISN": 3102010940,
+    "NAMA": "VANIA CALLISTA SUWANDI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 30,
+    "Kelas": "IX - 1",
+    "NISN": 3102643952,
+    "NAMA": "ZAKA MORINO KHADAFI SIMANULLANG",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 31,
+    "Kelas": "IX - 1",
+    "NISN": "0105373194",
+    "NAMA": "ZUHRA SHAKILA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 32,
+    "Kelas": "IX - 2",
+    "NISN": "0119898621",
+    "NAMA": "ADAM AS SHAKA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 33,
+    "Kelas": "IX - 2",
+    "NISN": "0107899417",
+    "NAMA": "ALFA DIANDRA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 34,
+    "Kelas": "IX - 2",
+    "NISN": "0106398870",
+    "NAMA": "ANGGRAINI TARIGAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 35,
+    "Kelas": "IX - 2",
+    "NISN": "0111808499",
+    "NAMA": "ASY SYIFA FEBYOLA QUEEN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 36,
+    "Kelas": "IX - 2",
+    "NISN": "0109130436",
+    "NAMA": "AYU NING TIAS",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 37,
+    "Kelas": "IX - 2",
+    "NISN": "0105503115",
+    "NAMA": "AZZAHRA RISFA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 38,
+    "Kelas": "IX - 2",
+    "NISN": "0093418566",
+    "NAMA": "BIMO HABIB SUKANA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 39,
+    "Kelas": "IX - 2",
+    "NISN": "0103593574",
+    "NAMA": "CAHAYA RAHMADHANI LUBIS",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 40,
+    "Kelas": "IX - 2",
+    "NISN": "0095413981",
+    "NAMA": "DELA FITRI ANINGSIH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 41,
+    "Kelas": "IX - 2",
+    "NISN": 3107018634,
+    "NAMA": "DIMAZ ANDREAN DEPARI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 42,
+    "Kelas": "IX - 2",
+    "NISN": "0104444850",
+    "NAMA": "DJUS SAFAATUL AULIA TANJUNG",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 43,
+    "Kelas": "IX - 2",
+    "NISN": "0091859988",
+    "NAMA": "FAHZLAH RANDINI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 44,
+    "Kelas": "IX - 2",
+    "NISN": "0103921857",
+    "NAMA": "FIRZA LUCKY DWIYANSYAH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 45,
+    "Kelas": "IX - 2",
+    "NISN": "0104099919",
+    "NAMA": "IBNU MAULANA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 46,
+    "Kelas": "IX - 2",
+    "NISN": "0107906738",
+    "NAMA": "JASMINE KIRANIA AZ-ZAHRA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 47,
+    "Kelas": "IX - 2",
+    "NISN": "0102615062",
+    "NAMA": "M ALDHY ALFAROZI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 48,
+    "Kelas": "IX - 2",
+    "NISN": "0101233133",
+    "NAMA": "MAULANA SIDIQ",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 49,
+    "Kelas": "IX - 2",
+    "NISN": 3102112719,
+    "NAMA": "MEISYA AMANDA PUTRI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 50,
+    "Kelas": "IX - 2",
+    "NISN": 3096430015,
+    "NAMA": "MOHAMMAD YUSUF EFENDI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 51,
+    "Kelas": "IX - 2",
+    "NISN": "0105959082",
+    "NAMA": "MUHAMMAD DIMAS PRADITTIA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 52,
+    "Kelas": "IX - 2",
+    "NISN": "0104373437",
+    "NAMA": "MUHAMMAD RAJA IMAN NUR HAKIMI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 53,
+    "Kelas": "IX - 2",
+    "NISN": "0101960381",
+    "NAMA": "MUHAMMAD ZAIDAN WIJAYA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 54,
+    "Kelas": "IX - 2",
+    "NISN": "0101709474",
+    "NAMA": "NADILA DEFANI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 55,
+    "Kelas": "IX - 2",
+    "NISN": "0106440650",
+    "NAMA": "NAZWA APRILIANA BR.HARAHAP",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 56,
+    "Kelas": "IX - 2",
+    "NISN": "0108849410",
+    "NAMA": "PUTRI NABILA HAFSAH SINAGA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 57,
+    "Kelas": "IX - 2",
+    "NISN": "0097614017",
+    "NAMA": "RAJA KIRANA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 58,
+    "Kelas": "IX - 2",
+    "NISN": "0103219442",
+    "NAMA": "RICKY RAMADHAN LUBIS",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 59,
+    "Kelas": "IX - 2",
+    "NISN": 3104286824,
+    "NAMA": "RIRIN KHAIRUNNISA SYAHFITRI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 60,
+    "Kelas": "IX - 2",
+    "NISN": "0106661097",
+    "NAMA": "SAKINA YUSMI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 61,
+    "Kelas": "IX - 2",
+    "NISN": 3103869330,
+    "NAMA": "SHAFA NUR HAFIZA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 62,
+    "Kelas": "IX - 2",
+    "NISN": "0107926835",
+    "NAMA": "VEGA NABILA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 63,
+    "Kelas": "IX - 2",
+    "NISN": "0101937930",
+    "NAMA": "ZYGA REZY ADICKA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 64,
+    "Kelas": "IX - 3",
+    "NISN": "0104583036",
+    "NAMA": "ADHEO DWI ZAKARIA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 65,
+    "Kelas": "IX - 3",
+    "NISN": "0107551380",
+    "NAMA": "ALIF AL MISQY NUGRAHA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 66,
+    "Kelas": "IX - 3",
+    "NISN": "0109235727",
+    "NAMA": "ANINDYA NAYLA ARKANNA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 67,
+    "Kelas": "IX - 3",
+    "NISN": "0106956197",
+    "NAMA": "ASYFA AULIA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 68,
+    "Kelas": "IX - 3",
+    "NISN": "0101523258",
+    "NAMA": "AYU REGINA PUTRI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 69,
+    "Kelas": "IX - 3",
+    "NISN": "0101399047",
+    "NAMA": "AZZAH THABSYAHIRAH NASUTION",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 70,
+    "Kelas": "IX - 3",
+    "NISN": "0107608417",
+    "NAMA": "BINTANG MUDA RANGKUTI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 71,
+    "Kelas": "IX - 3",
+    "NISN": "0097018407",
+    "NAMA": "DESWITA MALFA AFIZAH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 72,
+    "Kelas": "IX - 3",
+    "NISN": 3095831026,
+    "NAMA": "DIKA PRASETYO",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 73,
+    "Kelas": "IX - 3",
+    "NISN": "0093970246",
+    "NAMA": "DINDA ZAHIRA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 74,
+    "Kelas": "IX - 3",
+    "NISN": "0084784934",
+    "NAMA": "FADLI KESUMA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 75,
+    "Kelas": "IX - 3",
+    "NISN": "0103370369",
+    "NAMA": "GALANG ARYA SIREGAR",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 76,
+    "Kelas": "IX - 3",
+    "NISN": "0104818980",
+    "NAMA": "INAYAH SAFIRA HASIBUAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 77,
+    "Kelas": "IX - 3",
+    "NISN": 3103979366,
+    "NAMA": "JAVINA ARDIFTA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 78,
+    "Kelas": "IX - 3",
+    "NISN": 3109496074,
+    "NAMA": "KESHIA AUSHEVA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 79,
+    "Kelas": "IX - 3",
+    "NISN": "0109755961",
+    "NAMA": "M IRFAN RAMADHAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 80,
+    "Kelas": "IX - 3",
+    "NISN": "0099443323",
+    "NAMA": "MELISA AMANDA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 81,
+    "Kelas": "IX - 3",
+    "NISN": "0109811276",
+    "NAMA": "MHD FADIL",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 82,
+    "Kelas": "IX - 3",
+    "NISN": "0098256663",
+    "NAMA": "MUKTAR ARIF",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 83,
+    "Kelas": "IX - 3",
+    "NISN": "0087973058",
+    "NAMA": "NABILA RANGKUTI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 84,
+    "Kelas": "IX - 3",
+    "NISN": "0105803320",
+    "NAMA": "NAIRA JULIANDA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 85,
+    "Kelas": "IX - 3",
+    "NISN": "0091345787",
+    "NAMA": "NAZWA PERTIWI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 86,
+    "Kelas": "IX - 3",
+    "NISN": "0109610279",
+    "NAMA": "NURUL ADINDA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 87,
+    "Kelas": "IX - 3",
+    "NISN": 3107470897,
+    "NAMA": "RAFA ALFARIZI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 88,
+    "Kelas": "IX - 3",
+    "NISN": "0103914773",
+    "NAMA": "RAYHAN AHMAD ASSHIDIQ SIKUMBANG",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 89,
+    "Kelas": "IX - 3",
+    "NISN": "0101778041",
+    "NAMA": "RAYSHA SAFANA AZARIA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 90,
+    "Kelas": "IX - 3",
+    "NISN": "0109484204",
+    "NAMA": "RISKA AULIA HASIBUAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 91,
+    "Kelas": "IX - 3",
+    "NISN": "0102216544",
+    "NAMA": "SITI JUWITA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 92,
+    "Kelas": "IX - 3",
+    "NISN": "0104070752",
+    "NAMA": "TEGAR HAMONANGAN PANJAITAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 93,
+    "Kelas": "IX - 3",
+    "NISN": "0108027260",
+    "NAMA": "VENI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 94,
+    "Kelas": "IX - 4",
+    "NISN": "0093304878",
+    "NAMA": "ADJIE BAYHAQI MOENAF",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 95,
+    "Kelas": "IX - 4",
+    "NISN": "0096400901",
+    "NAMA": "AQILA DAWIYAH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 96,
+    "Kelas": "IX - 4",
+    "NISN": "0106121462",
+    "NAMA": "ASYIFA AZRA SALSABILA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 97,
+    "Kelas": "IX - 4",
+    "NISN": "0083442483",
+    "NAMA": "CUT NADIN AL-HUSNA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 98,
+    "Kelas": "IX - 4",
+    "NISN": "0094497214",
+    "NAMA": "DAENG SYAWAL AL AKBAR",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 99,
+    "Kelas": "IX - 4",
+    "NISN": "0102798071",
+    "NAMA": "FAHRI ALFIANSYAH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 100,
+    "Kelas": "IX - 4",
+    "NISN": "0106893332",
+    "NAMA": "FAIZ AL BANI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 101,
+    "Kelas": "IX - 4",
+    "NISN": "0095028671",
+    "NAMA": "FAUZAN ZARKAWI ANHAR",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 102,
+    "Kelas": "IX - 4",
+    "NISN": "0106120506",
+    "NAMA": "HAFIZAH FADILLAH SARAGIH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 103,
+    "Kelas": "IX - 4",
+    "NISN": "0114789746",
+    "NAMA": "IRFAN NURUDDIN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 104,
+    "Kelas": "IX - 4",
+    "NISN": "0118111543",
+    "NAMA": "M REZA SAUFIE",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 105,
+    "Kelas": "IX - 4",
+    "NISN": 3106560954,
+    "NAMA": "M RILLY TOTI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 106,
+    "Kelas": "IX - 4",
+    "NISN": 3101336955,
+    "NAMA": "MAYDIRA MUSTIKA ARAFAH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 107,
+    "Kelas": "IX - 4",
+    "NISN": "0099353083",
+    "NAMA": "MHD. FAHRIANSYAH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 108,
+    "Kelas": "IX - 4",
+    "NISN": "0098621897",
+    "NAMA": "MOZA KIRANA SIREGAR",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 109,
+    "Kelas": "IX - 4",
+    "NISN": "0101755325",
+    "NAMA": "MUHAMMAD ARYASYAH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 110,
+    "Kelas": "IX - 4",
+    "NISN": "0109891540",
+    "NAMA": "MUHAMMAD FADHLI AZHMI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 111,
+    "Kelas": "IX - 4",
+    "NISN": "0094151426",
+    "NAMA": "MUSTAKIM HABIB",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 112,
+    "Kelas": "IX - 4",
+    "NISN": "0108656677",
+    "NAMA": "NABILLA AMELIA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 113,
+    "Kelas": "IX - 4",
+    "NISN": "0105940518",
+    "NAMA": "NAJMA 'ALYA BR SIANTURI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 114,
+    "Kelas": "IX - 4",
+    "NISN": "0093561694",
+    "NAMA": "NOVA ELI ERMAWATI SIREGAR",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 115,
+    "Kelas": "IX - 4",
+    "NISN": "0108363527",
+    "NAMA": "NURATIFA ZAHRA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 116,
+    "Kelas": "IX - 4",
+    "NISN": "0106490566",
+    "NAMA": "PRISILIA PUTRI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 117,
+    "Kelas": "IX - 4",
+    "NISN": "0102091611",
+    "NAMA": "PUTRI SUCI RAMADHANI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 118,
+    "Kelas": "IX - 4",
+    "NISN": "0094029543",
+    "NAMA": "REZA PRATAMA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 119,
+    "Kelas": "IX - 4",
+    "NISN": 3102239218,
+    "NAMA": "RIJAL SEPTIANSYAH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 120,
+    "Kelas": "IX - 4",
+    "NISN": "0105973344",
+    "NAMA": "ROSIA SITEPU",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 121,
+    "Kelas": "IX - 4",
+    "NISN": "0093050023",
+    "NAMA": "SAHARA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 122,
+    "Kelas": "IX - 4",
+    "NISN": "0118635560",
+    "NAMA": "SYAFRIDHA MULYANA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 123,
+    "Kelas": "IX - 4",
+    "NISN": "0106987479",
+    "NAMA": "TENGKU KHALIQ REYZAN PERDANA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 124,
+    "Kelas": "IX - 4",
+    "NISN": "0109823166",
+    "NAMA": "YASMIN PUTRI DERMAWAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 125,
+    "Kelas": "IX - 5",
+    "NISN": "0126610221",
+    "NAMA": "ADELINA MARGARETA L.TOBING",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 126,
+    "Kelas": "IX - 5",
+    "NISN": "0106209707",
+    "NAMA": "AGUNG SETIAWAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 127,
+    "Kelas": "IX - 5",
+    "NISN": "0118561992",
+    "NAMA": "ANDRA TIMOTHY SINAGA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 128,
+    "Kelas": "IX - 5",
+    "NISN": "0107062918",
+    "NAMA": "APRIANSYAH ALAM HRP",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 129,
+    "Kelas": "IX - 5",
+    "NISN": "0106384494",
+    "NAMA": "CHIKA SIANIPAR",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 130,
+    "Kelas": "IX - 5",
+    "NISN": "0094525541",
+    "NAMA": "DAFA ANDIKA PRATAMA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 131,
+    "Kelas": "IX - 5",
+    "NISN": "0105768418",
+    "NAMA": "DHEA AMANDA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 132,
+    "Kelas": "IX - 5",
+    "NISN": "0103431098",
+    "NAMA": "EVITA HERLYANA ROSE SINABUTAR",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 133,
+    "Kelas": "IX - 5",
+    "NISN": "0118028539",
+    "NAMA": "FAHRI ARDIANSYAH HARAHAP",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 134,
+    "Kelas": "IX - 5",
+    "NISN": "0099606336",
+    "NAMA": "FAJAR GLEN JHESON HAREFA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 135,
+    "Kelas": "IX - 5",
+    "NISN": "0107490001",
+    "NAMA": "GHIFARI AZHAR NST",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 136,
+    "Kelas": "IX - 5",
+    "NISN": "0109345080",
+    "NAMA": "GILANG GUSTI PRADMUDYA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 137,
+    "Kelas": "IX - 5",
+    "NISN": "0103043286",
+    "NAMA": "HAPPY SHAKILA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 138,
+    "Kelas": "IX - 5",
+    "NISN": "0106238973",
+    "NAMA": "IRGI BAIM FAHREZI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 139,
+    "Kelas": "IX - 5",
+    "NISN": "0112030475",
+    "NAMA": "KHAIRUNNISA SIMANUNGKALIT",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 140,
+    "Kelas": "IX - 5",
+    "NISN": "0109755404",
+    "NAMA": "KRISTIANI REJEKI SIMBOLON",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 141,
+    "Kelas": "IX - 5",
+    "NISN": "0101057900",
+    "NAMA": "M. AFANDI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 142,
+    "Kelas": "IX - 5",
+    "NISN": "0101346859",
+    "NAMA": "MARCELLO AGUSTINO HUTASOIT",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 143,
+    "Kelas": "IX - 5",
+    "NISN": "0103821746",
+    "NAMA": "NAOMI EVITASARI SAGALA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 144,
+    "Kelas": "IX - 5",
+    "NISN": "0108411056",
+    "NAMA": "NARA LIFA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 145,
+    "Kelas": "IX - 5",
+    "NISN": "0107367763",
+    "NAMA": "NUR JANAH LAMEISYA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 146,
+    "Kelas": "IX - 5",
+    "NISN": "0108244088",
+    "NAMA": "PERDIANSYAH PASARIBU",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 147,
+    "Kelas": "IX - 5",
+    "NISN": "0113324700",
+    "NAMA": "RAHAYU FEBRIAN LINTANG",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 148,
+    "Kelas": "IX - 5",
+    "NISN": "0099230795",
+    "NAMA": "RIFQI ANNA FI'I",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 149,
+    "Kelas": "IX - 5",
+    "NISN": "0101609021",
+    "NAMA": "RISCA ULINA SILALAHI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 150,
+    "Kelas": "IX - 5",
+    "NISN": "0106043269",
+    "NAMA": "SEBASTIAN TIMOTI SIAHAAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 151,
+    "Kelas": "IX - 5",
+    "NISN": "0106441085",
+    "NAMA": "STEPHANIE LAURENSYA MANURUNG",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 152,
+    "Kelas": "IX - 5",
+    "NISN": "0104268297",
+    "NAMA": "TUTUR GITA SIMBOLON",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 153,
+    "Kelas": "IX - 5",
+    "NISN": "0118920002",
+    "NAMA": "WELL ALFREDO PAKPAHAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 154,
+    "Kelas": "IX - 5",
+    "NISN": "0107348102",
+    "NAMA": "YOHANNA VALEN SINAGA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 155,
+    "Kelas": "IX - 5",
+    "NISN": "0091077351",
+    "NAMA": "YULI HANDAYANI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 156,
+    "Kelas": "IX - 6",
+    "NISN": "0116021144",
+    "NAMA": "ANDREAS RIZKY JAYA SITANGGANG",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 157,
+    "Kelas": "IX - 6",
+    "NISN": "0094711785",
+    "NAMA": "AULIA SIDDIQ",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 158,
+    "Kelas": "IX - 6",
+    "NISN": "0102433506",
+    "NAMA": "CAHYA AUFA NIKEISHA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 159,
+    "Kelas": "IX - 6",
+    "NISN": "0106935189",
+    "NAMA": "DENI ARYANTO HUTABARAT",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 160,
+    "Kelas": "IX - 6",
+    "NISN": "0106832089",
+    "NAMA": "DIANITA LUMBANGAOL",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 161,
+    "Kelas": "IX - 6",
+    "NISN": "0103633452",
+    "NAMA": "DINDA ALIFYA RAHMA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 162,
+    "Kelas": "IX - 6",
+    "NISN": "0101249787",
+    "NAMA": "GRACE MANURUNG",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 163,
+    "Kelas": "IX - 6",
+    "NISN": "0105834030",
+    "NAMA": "HELDA SYAHVIRA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 164,
+    "Kelas": "IX - 6",
+    "NISN": "0108322283",
+    "NAMA": "KHAISYAH RAMDHANI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 165,
+    "Kelas": "IX - 6",
+    "NISN": "0105001726",
+    "NAMA": "MARIO FERRY SINAGA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 166,
+    "Kelas": "IX - 6",
+    "NISN": "0109229477",
+    "NAMA": "MAUDI CAROLIN TATARANG",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 167,
+    "Kelas": "IX - 6",
+    "NISN": "0095900078",
+    "NAMA": "MUHAMMAD RAFA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 168,
+    "Kelas": "IX - 6",
+    "NISN": 3101722219,
+    "NAMA": "NABILA AISYAH PUTRI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 169,
+    "Kelas": "IX - 6",
+    "NISN": "0093508696",
+    "NAMA": "NANDAFA FAISRAWAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 170,
+    "Kelas": "IX - 6",
+    "NISN": "0103401870",
+    "NAMA": "NATALIA RUMIRIS NAINGGOLAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 171,
+    "Kelas": "IX - 6",
+    "NISN": "0103016638",
+    "NAMA": "NAYLA SAKINAH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 172,
+    "Kelas": "IX - 6",
+    "NISN": "0107813919",
+    "NAMA": "PERDANA WAHYU SITANGGANG",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 173,
+    "Kelas": "IX - 6",
+    "NISN": 3091917496,
+    "NAMA": "RAHMIYANI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 174,
+    "Kelas": "IX - 6",
+    "NISN": "0106791909",
+    "NAMA": "RAVAEL RE ANGLO GULTOM",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 175,
+    "Kelas": "IX - 6",
+    "NISN": "0104512362",
+    "NAMA": "RISHEL AURORA THERESIA MANIK",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 176,
+    "Kelas": "IX - 6",
+    "NISN": "0109753011",
+    "NAMA": "SALSABILA BATUBARA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 177,
+    "Kelas": "IX - 6",
+    "NISN": "0102976476",
+    "NAMA": "STEVANIE MARIA SILITONGA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 178,
+    "Kelas": "IX - 6",
+    "NISN": "0102751841",
+    "NAMA": "THRISNO TURNIP",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 179,
+    "Kelas": "IX - 6",
+    "NISN": "0107306941",
+    "NAMA": "TIMOTI JERIKO NABABAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 180,
+    "Kelas": "IX - 6",
+    "NISN": "0113740247",
+    "NAMA": "WAHYU ALFA RIZKY",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 181,
+    "Kelas": "IX - 6",
+    "NISN": "0104524335",
+    "NAMA": "YOLANDA ANGGRAINI SARAGIH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 182,
+    "Kelas": "IX - 6",
+    "NISN": "0103350288",
+    "NAMA": "ZAHRA ARIFIN RAMBE",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 183,
+    "Kelas": "IX - 7",
+    "NISN": "0096729284",
+    "NAMA": "AKBAR FAUJAN GHANI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 184,
+    "Kelas": "IX - 7",
+    "NISN": "0101684733",
+    "NAMA": "ANGEL AULIA SITANGGANG",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 185,
+    "Kelas": "IX - 7",
+    "NISN": "0102342617",
+    "NAMA": "ARLE SETIAWAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 186,
+    "Kelas": "IX - 7",
+    "NISN": "0108509311",
+    "NAMA": "BAGAS PRASETIYO",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 187,
+    "Kelas": "IX - 7",
+    "NISN": "0091790658",
+    "NAMA": "CHONYA SASMITA SARI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 188,
+    "Kelas": "IX - 7",
+    "NISN": "0109401112",
+    "NAMA": "ELIA ROMAULI PASARIBU",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 189,
+    "Kelas": "IX - 7",
+    "NISN": "0103388741",
+    "NAMA": "FATUR RAHMAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 190,
+    "Kelas": "IX - 7",
+    "NISN": "0098136467",
+    "NAMA": "HAFIZ SANJAYA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 191,
+    "Kelas": "IX - 7",
+    "NISN": "0105591568",
+    "NAMA": "IBRAHIM ARSYAVIN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 192,
+    "Kelas": "IX - 7",
+    "NISN": "0109542815",
+    "NAMA": "JAMSEN ARLIANTA SEMBIRING",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 193,
+    "Kelas": "IX - 7",
+    "NISN": "0109650390",
+    "NAMA": "JESBERIKA NATASYA MANALU",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 194,
+    "Kelas": "IX - 7",
+    "NISN": "0102094317",
+    "NAMA": "KEVIN MAYDEN SIBARANI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 195,
+    "Kelas": "IX - 7",
+    "NISN": "0091451424",
+    "NAMA": "KHOIRI RIZKI FATANULLAH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 196,
+    "Kelas": "IX - 7",
+    "NISN": "0102950588",
+    "NAMA": "MALIKA AZKA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 197,
+    "Kelas": "IX - 7",
+    "NISN": "0105871531",
+    "NAMA": "MECHY YOHANNA BR. LUMBAN GAOL",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 198,
+    "Kelas": "IX - 7",
+    "NISN": "0108374848",
+    "NAMA": "MUHAMMAD ARDIANSYAH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 199,
+    "Kelas": "IX - 7",
+    "NISN": "0105692554",
+    "NAMA": "MUHAMMAD RAFA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 200,
+    "Kelas": "IX - 7",
+    "NISN": "0103180885",
+    "NAMA": "NAZHILA KARENSA PUTRI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 201,
+    "Kelas": "IX - 7",
+    "NISN": "0091736582",
+    "NAMA": "NOVRI AZI SYAHPUTRA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 202,
+    "Kelas": "IX - 7",
+    "NISN": "0091870850",
+    "NAMA": "PASKHAS SUBANG",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 203,
+    "Kelas": "IX - 7",
+    "NISN": "0106993251",
+    "NAMA": "RACHEL CHERYL LETICIA HARAHAP",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 204,
+    "Kelas": "IX - 7",
+    "NISN": "0105292839",
+    "NAMA": "RARA NUR AZURA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 205,
+    "Kelas": "IX - 7",
+    "NISN": "0105020725",
+    "NAMA": "RENALDI PURBA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 206,
+    "Kelas": "IX - 7",
+    "NISN": "0101048817",
+    "NAMA": "SALWA APRILIANI BR.HARAHAP",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 207,
+    "Kelas": "IX - 7",
+    "NISN": "0103904813",
+    "NAMA": "SANTI KARTIKA SARI SIANTURI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 208,
+    "Kelas": "IX - 7",
+    "NISN": "0105664741",
+    "NAMA": "SUKMA MULIA SARI BR SILALAHI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 209,
+    "Kelas": "IX - 7",
+    "NISN": "0094927813",
+    "NAMA": "TIARA SARI DEWI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 210,
+    "Kelas": "IX - 7",
+    "NISN": "0091397730",
+    "NAMA": "TIMBUL JAYA LIMBONG",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 211,
+    "Kelas": "IX - 7",
+    "NISN": "0089540430",
+    "NAMA": "TIMOTIUS JOSUA MANIK",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 212,
+    "Kelas": "IX - 7",
+    "NISN": "0109604539",
+    "NAMA": "WINDA LESTARI SIAGIAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 213,
+    "Kelas": "IX - 7",
+    "NISN": "0095838861",
+    "NAMA": "YOSI OKTAVIA SIMAMORA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 214,
+    "Kelas": "IX - 7",
+    "NISN": "0102948362",
+    "NAMA": "ZALSA AMANDA SABILAH",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 215,
+    "Kelas": "IX - 8",
+    "NISN": "0101503046",
+    "NAMA": "AGATA LASRIA PARSAULIAN SIHOMBING",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 216,
+    "Kelas": "IX - 8",
+    "NISN": "0109514579",
+    "NAMA": "AKMAL HASSAN NASUTION",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 217,
+    "Kelas": "IX - 8",
+    "NISN": "0091045303",
+    "NAMA": "ANDIKA PRASETIO",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 218,
+    "Kelas": "IX - 8",
+    "NISN": "0109567700",
+    "NAMA": "ASTRI OKTAVIANI SINAMBELA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 219,
+    "Kelas": "IX - 8",
+    "NISN": "0109990756",
+    "NAMA": "BIMA PUTRA TRISANTOSO",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 220,
+    "Kelas": "IX - 8",
+    "NISN": "0108580176",
+    "NAMA": "DAMAR PAMUJI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 221,
+    "Kelas": "IX - 8",
+    "NISN": "0095872732",
+    "NAMA": "DEWI SINTA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 222,
+    "Kelas": "IX - 8",
+    "NISN": "0094357720",
+    "NAMA": "DIANGGA TRI LESMANA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 223,
+    "Kelas": "IX - 8",
+    "NISN": "0105183438",
+    "NAMA": "ELVINA FLORENCE SIMANJUNTAK",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 224,
+    "Kelas": "IX - 8",
+    "NISN": "0103912614",
+    "NAMA": "HAFIZ PRATAMA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 225,
+    "Kelas": "IX - 8",
+    "NISN": "0102122554",
+    "NAMA": "HARITH HAZIQ HARAHAP",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 226,
+    "Kelas": "IX - 8",
+    "NISN": "0103575122",
+    "NAMA": "INDA DEFA KIRANA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 227,
+    "Kelas": "IX - 8",
+    "NISN": "0107709253",
+    "NAMA": "JESICHA ANJANI SINAGA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 228,
+    "Kelas": "IX - 8",
+    "NISN": "0113155777",
+    "NAMA": "KEVIN LUMBAN TOBING",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 229,
+    "Kelas": "IX - 8",
+    "NISN": "0096793878",
+    "NAMA": "KRISTIAN MORALES HALOMOAN SINAGA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 230,
+    "Kelas": "IX - 8",
+    "NISN": "0109105862",
+    "NAMA": "LUFFI FATUROZAQ",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 231,
+    "Kelas": "IX - 8",
+    "NISN": "0106501336",
+    "NAMA": "MAKMUR RIZKY",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 232,
+    "Kelas": "IX - 8",
+    "NISN": "0104006221",
+    "NAMA": "MAULANA AJA JAYA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 233,
+    "Kelas": "IX - 8",
+    "NISN": "0103627750",
+    "NAMA": "MELATI INDAH S  NABABAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 234,
+    "Kelas": "IX - 8",
+    "NISN": "0106717250",
+    "NAMA": "NAZWA ALFIRA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 235,
+    "Kelas": "IX - 8",
+    "NISN": "0101252434",
+    "NAMA": "PUTRI SAPITRI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 236,
+    "Kelas": "IX - 8",
+    "NISN": "0106678760",
+    "NAMA": "RAHEL MONICA TAMPUBOLON",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 237,
+    "Kelas": "IX - 8",
+    "NISN": "0103218702",
+    "NAMA": "RISKI HABIBI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 238,
+    "Kelas": "IX - 8",
+    "NISN": "0101133792",
+    "NAMA": "SAMUEL RISKI PANJAITAN",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 239,
+    "Kelas": "IX - 8",
+    "NISN": "0086184114",
+    "NAMA": "SARA AMELLIA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 240,
+    "Kelas": "IX - 8",
+    "NISN": "0117427406",
+    "NAMA": "STEFANI NURCAHAYA SITUMORANG",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 241,
+    "Kelas": "IX - 8",
+    "NISN": "0103193862",
+    "NAMA": "SYALOMITA VALEN MARISA",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 242,
+    "Kelas": "IX - 8",
+    "NISN": "0099871452",
+    "NAMA": "SYIFA INAYAH LUBIS",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 243,
+    "Kelas": "IX - 8",
+    "NISN": "0117605488",
+    "NAMA": "WIDI TRI BINTANG SARAGI",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 244,
+    "Kelas": "IX - 8",
+    "NISN": "0106984464",
+    "NAMA": "WINONA MARGARETHA HUTABARAT",
+    "Keterangan": "LULUS"
+  },
+  {
+    "NO.": 245,
+    "Kelas": "IX - 8",
+    "NISN": "0102582416",
+    "NAMA": "ZIFANNI AULIA",
+    "Keterangan": "LULUS"
   }
 ]
