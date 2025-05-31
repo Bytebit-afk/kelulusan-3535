@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Pengumuman Kelulusan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Daftar Kelulusan Siswa Kelas 9</h1>
+<h2>DINAS PENDIDIKAN DAN KEBUDAYAAN</h2>
+    <h3>UPT SMP NEGERI 35 MEDAN</h3>
+    <p class="center">Jalan Williem Iskandar Pasar V, Kel. Bandar Selamat, Kec. Medan Tembung<br>
+    Kota Medan, 20223</p>
+
+    <div class="content">
+        <h3>SURAT KEPUTUSAN<br>KEPALA UPT SMP NEGERI 35 MEDAN</h3>
+        <p>Nomor: 421/103</p>
+        <p><strong>TENTANG<br>PENETAPAN KELULUSAN PESERTA DIDIK KELAS IX<br>TAHUN PELAJARAN 2024/2025</strong></p>
+        <p class="center"><strong>DENGAN RAHMAT TUHAN YANG MAHA ESA</strong></p>
+        <p class="center"><strong>KEPALA UPT SMP NEGERI 35 MEDAN</strong></p>
+
+        <p><strong>MENIMBANG:</strong></p>
+        <ol type="a">
+            <li>Bahwa untuk menetapkan kelulusan siswa kelas IX UPT SMP Negeri 35 Medan TP. 2024/2025, maka perlu diadakan rapat dewan Guru.</li>
+            <li>Rapat dewan Guru UPT SMP Negeri 35 Medan yang diadakan pada tanggal 27 Juni 2025 telah menetapkan kelulusan siswa berdasarkan kriteria yang berlaku di sekolah.</li>
+        </ol>
+
+        <p><strong>MENGINGAT:</strong></p>
+        <ol>
+            <li>Peraturan Menteri Pendidikan, Kebudayaan, Riset dan Teknologi RI Nomor 21 Tahun 2022 Tentang Standar Penilaian Pendidikan pada Pendidikan Anak Usia Dini Jenjang Pendidikan Dasar, dan Jenjang Pendidikan Menengah.</li>
+            <li>Surat edaran Dinas Pendidikan Kota Medan nomor 400.3.5/4551, tanggal 08 Mei 2025 tentang kelulusan kelas IX.</li>
+        </ol>
+
+        <p><strong>MEMPERHATIKAN:</strong> Persyaratan kelulusan Siswa di UPT SMP Negeri 35 Medan berdasarkan Kriteria, (1) Menyelesaikan program pembelajaran yang dibuktikan dengan Rapor tiap semester, (2) Mengikuti ujian penilaian akhir sekolah yang diselenggarakan oleh satuan pendidikan.</p>
+
+        <p><strong>MENETAPKAN</strong></p>
+        <p><strong>PERTAMA:</strong> Kelulusan peserta didik kelas IX Tahun 2024/2025 sebagaimana tercantum dalam lampiran yang merupakan kesatuan yang tidak terpisahkan dengan surat keputusan ini.</p>
+        <p><strong>KEDUA:</strong> Surat keputusan ini berlaku sejak tanggal ditetapkan dengan catatan apabila terdapat kekeliruan dalam surat keputusan ini akan diperbaiki sebagaimana mestinya.</p>
+    </div>
+
+    <div class="signature">
+        <p>Ditetapkan di: Medan<br>
+        Tanggal: 02 Juni 2025<br>
+        Kepala UPT SMP Negeri 35 Medan</p>
+        <br><br><br>
+        <p><strong>ROSMAYANI HARAHAP, S.Pd.</strong><br>
+        NIP. 19710301 200701 2 005</p>
+    </div>
+  <table id="tabel-kelulusan">
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>Kelas</th>
+        <th>NISN</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="daftar-siswa"></tbody>
+  </table>
+
+  <script>
+    fetch("data.json")
+      .then(res => res.json())
+      .then(data => {
+        const tbody = document.getElementById("daftar-siswa");
+        data.forEach((siswa, index) => {
+          const tr = document.createElement("tr");
+          tr.innerHTML = `
+            <td>${index + 1}</td>
+            <td>${siswa.nama}</td>
+            <td>${siswa.kelas}</td>
+            <td>${siswa.nisn}</td>
+            <td>${siswa.keterangan}</td>
+          `;
+          tbody.appendChild(tr);
+        });
+      });
+  </script>
+</body>
+</html>
