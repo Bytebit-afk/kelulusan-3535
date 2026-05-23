@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengumuman Kelulusan UPT SMPN 35 Medan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Desain utama dominan warna biru muda dengan Gradasi */
+        body { 
+            background: linear-gradient(135deg, #E1F5FE 0%, #B3E5FC 100%);
+            font-family: 'Poppins', sans-serif; /* Menggunakan font modern */
+            margin: 0; 
+            padding: 20px 10px; 
+            color: #01579B; 
+            box-sizing: border-box;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+
+        /* --- ANIMASI KEYFRAMES --- */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulseAlert {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+
+        /* Container Card Utama */
+        .container { 
+            width: 100%;
+            max-width: 750px; 
+            background: #ffffff; 
+            padding: 40px 30px; 
+            border-radius: 20px; 
+            box-shadow: 0 10px 30px rgba(2, 119, 189, 0.1); 
+            animation: fadeIn 0.6s ease-out; 
+            position: relative;
+        }
+
+        h1 { 
+            text-align: center; 
+            font-size: 24px; 
+            font-weight: 700;
+            color: #0277BD; 
+            text-transform: uppercase; 
+            margin-bottom: 25px; 
+            line-height: 1.5;
+        }
+
+        h2 { 
+            text-align: center; 
+            font-size: 22px;
+            font-weight: 600;
+            color: #0277BD;
+            margin-bottom: 30px;
+        }
+
+        /* Format teks rata kanan kiri untuk sambutan */
+        .sambutan { 
+            text-align: justify; 
+            line-height: 1.8; 
+            margin-bottom: 30px; 
+            font-size: 15px;
+            color: #455A64;
+        }
+
+        /* Desain Tombol Global */
+        .btn { 
+            display: inline-block;
+            width: 100%; 
+            padding: 15px 20px; 
+            text-align: center; 
+            background-color: #0288D1; 
+            color: white; 
+            border: none; 
+            border-radius: 10px; 
+            font-size: 16px; 
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+            cursor: pointer; 
+            transition: all 0.3s ease; 
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(2, 136, 209, 0.2);
+        }
+
+        .btn-primary {
+            max-width: 300px;
+            display: block;
+            margin: 20px auto 0 auto;
+        }
+
+        .btn:hover { 
+            background-color: #01579B; 
+            transform: translateY(-2px); 
+            box-shadow: 0 6px 20px rgba(1, 87, 155, 0.3);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn-back {
+            background-color: #78909C;
+            max-width: 120px;
+            padding: 10px 15px;
+            font-size: 14px;
+            margin-bottom: 25px;
+            box-shadow: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+        
+        .btn-back:hover {
+            background-color: #546E7A;
+        }
+
+        /* Hitung Mundur */
+        #countdown { 
+            text-align: center; 
+            font-size: 18px; 
+            font-weight: 700; 
+            margin: 30px 0; 
+            color: #D32F2F; 
+            background: #FFEBEE; 
+            padding: 20px; 
+            border-radius: 12px; 
+            line-height: 1.6;
+            border: 1px dashed #EF9A9A;
+        }
+
+        .hidden { display: none !important; }
+
+        /* --- DESAIN INPUT & TOMBOL CEK (FLEKSIBEL) --- */
+        .input-group { 
+            display: flex;
+            flex-direction: column; /* HP: Atas bawah */
+            gap: 15px;
+            margin: 0 auto; 
+            max-width: 500px;
+        }
+
+        input[type="text"] { 
+            padding: 16px 20px; 
+            width: 100%; 
+            font-size: 16px; 
+            font-family: 'Poppins', sans-serif;
+            border: 2px solid #B3E5FC; 
+            border-radius: 10px; 
+            outline: none; 
+            background-color: #FAFAFA;
+            transition: all 0.3s ease;
+        }
+
+        input[type="text"]:focus { 
+            border-color: #0288D1; 
+            background-color: #FFFFFF;
+            box-shadow: 0 0 0 4px rgba(2, 136, 209, 0.15); 
+        }
+
+        /* Area Hasil & Notifikasi */
+        #result-area { 
+            margin-top: 30px; 
+        }
+
+        .alert, .success-box, .table-responsive {
+            animation: slideUp 0.4s ease-out forwards;
+        }
+
+        /* Peringatan Error */
+        .alert { 
+            background-color: #FFEBEE; 
+            color: #C62828; 
+            padding: 16px; 
+            border-radius: 10px; 
+            border-left: 5px solid #D32F2F;
+            text-align: center; 
+            font-weight: 500; 
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        /* Kotak Kelulusan */
+        .success-box { 
+            background-color: #F1F8E9; 
+            border: 1px solid #C5E1A5; 
+            padding: 25px; 
+            border-radius: 12px; 
+            text-align: center; 
+            box-shadow: 0 4px 15px rgba(139, 195, 74, 0.1);
+        }
+
+        .success-box h3 { 
+            color: #33691E; 
+            margin-top: 0; 
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #DCEDC8;
+            padding-bottom: 10px;
+        }
+
+        .data-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px dashed #DCEDC8;
+        }
+
+        .data-row:last-child {
+            border-bottom: none;
+            margin-top: 15px;
+            padding-bottom: 0;
+        }
+
+        .data-label { color: #558B2F; font-size: 15px; }
+        .data-value { color: #33691E; font-size: 16px; font-weight: 600; text-align: right; }
+
+        .status-lulus {
+            color: #2E7D32; 
+            font-weight: 800; 
+            font-size: 26px;
+            letter-spacing: 2px;
+            text-shadow: 0 2px 4px rgba(46, 125, 50, 0.2);
+            animation: pulseAlert 1.5s infinite;
+        }
+
+        /* Tabel Responsif untuk Admin */
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            font-size: 14px; 
+            min-width: 450px; 
+            background: white;
+        }
+
+        th, td { 
+            border-bottom: 1px solid #E1F5FE; 
+            padding: 15px; 
+            text-align: left; 
+        }
+
+        th { 
+            background-color: #0288D1; 
+            color: white; 
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 0.5px;
+        }
+
+        tr:nth-child(even) { background-color: #F9FDFE; }
+        tr:hover { background-color: #E1F5FE; }
+
+        /* RESPONSIVE CSS UNTUK LAYAR LAPTOP/DESKTOP */
+        @media (min-width: 600px) {
+            .container { padding: 50px; }
+            
+            /* Gabungkan input dan tombol menjadi 1 baris yang elegan */
+            .input-group {
+                flex-direction: row;
+                gap: 0;
+                box-shadow: 0 4px 15px rgba(2, 136, 209, 0.1);
+                border-radius: 10px;
+            }
+
+            input[type="text"] {
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+                border: 2px solid #E1F5FE;
+                border-right: none;
+            }
+
+            .btn-cek {
+                width: auto;
+                min-width: 120px;
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+                margin: 0;
+                box-shadow: none;
+            }
+            
+            input[type="text"]:focus + .btn-cek {
+                background-color: #01579B;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container" id="home-page">
+        <h1>pengumuman kelulusan siswa UPT SMP Negeri 35 Medan tahun ajaran 2025/2026</h1>
+        
+        <div class="sambutan">
+            <p><strong>Sambutan Kepala Sekolah:</strong></p>
+            <p>Puji syukur ke hadirat Tuhan Yang Maha Esa atas segala rahmat-Nya. Anak-anakku sekalian yang bapak/ibu cintai, pengumuman kelulusan ini adalah hasil dari dedikasi dan kerja keras kalian selama menempuh pendidikan di UPT SMP Negeri 35 Medan. Jadikanlah momen ini sebagai batu loncatan untuk menggapai cita-cita di jenjang yang lebih tinggi. Tetaplah semangat belajar dan teruslah berkarya.</p>
+        </div>
+
+        <div id="countdown">Memuat jadwal pengumuman...</div>
+
+        <button class="btn btn-primary" onclick="goToCekKelulusan()">Masuk ke Cek Kelulusan</button>
+    </div>
+
+    <div class="container hidden" id="cek-page">
+        <button class="btn btn-back" onclick="goToHome()">&#8592; Kembali</button>
+        <h2>Cari Data Kelulusan</h2>
+        
+        <div class="input-group">
+            <input type="text" id="nisn-input" placeholder="Masukkan NISN siswa...">
+            <button class="btn btn-cek" onclick="cekKelulusan()">Cari</button>
+        </div>
+        
+        <div id="result-area"></div>
+    </div>
+
+    <script>
+        // Database Siswa [cite: 20]
+        const dataSiswa = [
+            { nisn: "0114960800", nama: "Abel Fricilia", status: "LULUS" },
+            { nisn: "0108222494", nama: "Abi Firmansyah", status: "LULUS" },
+            { nisn: "3113258044", nama: "ABI MANYU SHAKY", status: "LULUS" },
+            { nisn: "0119678164", nama: "ADAM FAJRIANSYAH ZAI", status: "LULUS" },
+            { nisn: "3116267428", nama: "ADE ANGGRAINI GULTOM", status: "LULUS" },
+            { nisn: "0105130180", nama: "ADE NURWIDIA", status: "LULUS" },
+            { nisn: "0106094886", nama: "ADE SEKTIAWAN", status: "LULUS" },
+            { nisn: "0107684786", nama: "ADELIA FAIRY", status: "LULUS" },
+            { nisn: "0119476028", nama: "Adelia Putri Manurung", status: "LULUS" },
+            { nisn: "0116010516", nama: "ADINDA NUFIKA LAFI", status: "LULUS" },
+            { nisn: "0111844688", nama: "Adinda Raisya Bunga", status: "LULUS" },
+            { nisn: "0109227202", nama: "Aditya Pratama", status: "LULUS" },
+            { nisn: "0112810590", nama: "ADIVA MUMTAZAH WIBOWO", status: "LULUS" },
+            { nisn: "0117616205", nama: "Adnan Amri Nasution", status: "LULUS" },
+            { nisn: "0106236983", nama: "Advriani Tambun", status: "LULUS" },
+            { nisn: "0113885163", nama: "AHMAD AFANDI", status: "LULUS" },
+            { nisn: "0116087751", nama: "AHMAD AL-HABSY RAMADANA", status: "LULUS" },
+            { nisn: "3125493586", nama: "AHMAD PUJI SANTOSO", status: "LULUS" },
+            { nisn: "0111277322", nama: "AHMAD YUNUS", status: "LULUS" },
+            { nisn: "0114239183", nama: "AHMAD YUSUF", status: "LULUS" },
+            { nisn: "0116297740", nama: "AISYAH ADINDA PUTRI", status: "LULUS" },
+            { nisn: "0116181984", nama: "Aisyah Nur Aulia", status: "LULUS" },
+            { nisn: "0103458730", nama: "Aisyah Ruliabela", status: "LULUS" },
+            { nisn: "3114171794", nama: "AKHMAD ZAILANI", status: "LULUS" },
+            { nisn: "0115536914", nama: "AKMAL SAHBANA PANGARIBUAN", status: "LULUS" },
+            { nisn: "0106958959", nama: "ALDI DHARMA WIJAYA", status: "LULUS" },
+            { nisn: "0114008038", nama: "Alfin Rahim Akbar Hrp", status: "LULUS" },
+            { nisn: "0117032286", nama: "ALISA SISKAWATI", status: "LULUS" },
+            { nisn: "0112451430", nama: "ALVINA SAHFITRI", status: "LULUS" },
+            { nisn: "0104416989", nama: "ALWI GILANG RAMADHAN", status: "LULUS" },
+            { nisn: "3116579037", nama: "ALYA QANITAH", status: "LULUS" },
+            { nisn: "0118249484", nama: "AMANDA ZIHAN SALSABILLAH", status: "LULUS" },
+            { nisn: "0105831488", nama: "Amel Ramadhani", status: "LULUS" },
+            { nisn: "0117537208", nama: "AMRAN EDUARDO NAIBAHO", status: "LULUS" },
+            { nisn: "0111225460", nama: "ANANDA ARSHAVIN", status: "LULUS" },
+            { nisn: "0117483601", nama: "ANDRE WARTANTA LUMBAN GAOL", status: "LULUS" },
+            { nisn: "0114221507", nama: "ANDREAS SAMOSIR", status: "LULUS" },
+            { nisn: "0118984052", nama: "Andriana Azhara", status: "LULUS" },
+            { nisn: "0117568314", nama: "ANGGUN CHINTIA MAREKHAR", status: "LULUS" },
+            { nisn: "0119076543", nama: "ANITA KARUNIA SIANIPAR", status: "LULUS" },
+            { nisn: "0113653212", nama: "Annisa Putri", status: "LULUS" },
+            { nisn: "0129080658", nama: "ANNISA PUTRI", status: "LULUS" },
+            { nisn: "0114024629", nama: "AQILA DWI PRATIWI", status: "LULUS" },
+            { nisn: "0116891142", nama: "ARTA ULI SIDABUTAR", status: "LULUS" },
+            { nisn: "0118865657", nama: "ARTIKA SARI SIAGIAN", status: "LULUS" },
+            { nisn: "0112593317", nama: "Ashyfa Raudah", status: "LULUS" },
+            { nisn: "0112005257", nama: "ASNILA SIREGAR", status: "LULUS" },
+            { nisn: "0106231771", nama: "Asyfa Amelia", status: "LULUS" },
+            { nisn: "0102890694", nama: "Asyifa Wani", status: "LULUS" },
+            { nisn: "0117091071", nama: "AUREL SASKIA", status: "LULUS" },
+            { nisn: "0114322508", nama: "AURELIA TURNIP", status: "LULUS" },
+            { nisn: "0118880740", nama: "AYU ATIKA SARI SILABAN", status: "LULUS" },
+            { nisn: "0113025357", nama: "Az Zahra Assyaridz", status: "LULUS" },
+            { nisn: "0111167174", nama: "AZ ZAHRA YUSUF", status: "LULUS" },
+            { nisn: "0116061948", nama: "AZRIEL AKSA", status: "LULUS" },
+            { nisn: "0111392071", nama: "AZRIEL IMANUEL SITOHANG", status: "LULUS" },
+            { nisn: "3111917810", nama: "BAGUS SUHAILI", status: "LULUS" },
+            { nisn: "3106479683", nama: "BANYU FIKRI NUGRAHA", status: "LULUS" },
+            { nisn: "0118792401", nama: "BAYU ANGGARA", status: "LULUS" },
+            { nisn: "0112457872", nama: "BELLA ANGGELINA HARIANJA", status: "LULUS" },
+            { nisn: "0115358851", nama: "BONATA APRIDA HUTASOIT", status: "LULUS" },
+            { nisn: "0117542326", nama: "BUNGA ASTIKA", status: "LULUS" },
+            { nisn: "0112240739", nama: "Bunga Ayu Putri", status: "LULUS" },
+            { nisn: "0116970209", nama: "Cahaya Cinta", status: "LULUS" },
+            { nisn: "0107763350", nama: "Cahaya Kartika", status: "LULUS" },
+            { nisn: "0117165232", nama: "CANY INRIYANI HUTASOIT", status: "LULUS" },
+            { nisn: "0117635240", nama: "CECILIA AURORA AGATA SIMANJUNTAK", status: "LULUS" },
+            { nisn: "0117891331", nama: "Charissa Claudya", status: "LULUS" },
+            { nisn: "3117592377", nama: "CHARLIE PRAYOGI", status: "LULUS" },
+            { nisn: "0113627351", nama: "CHESYA NURUL BALQIS", status: "LULUS" },
+            { nisn: "0114451733", nama: "CHIKA BR SIMBOLON", status: "LULUS" },
+            { nisn: "0117777860", nama: "Chrysant Clarissa Ambarita", status: "LULUS" },
+            { nisn: "0116209540", nama: "Cikho Steven Situngkir", status: "LULUS" },
+            { nisn: "0112536454", nama: "Cindy Aulia", status: "LULUS" },
+            { nisn: "0111386184", nama: "CINDY AULIA TANJUNG", status: "LULUS" },
+            { nisn: "0113910324", nama: "CINDY AULIA WIJAYA", status: "LULUS" },
+            { nisn: "0105734688", nama: "Citra Olivia Sianturi", status: "LULUS" },
+            { nisn: "0116503972", nama: "Citra Veronika Sitorus", status: "LULUS" },
+            { nisn: "3115955337", nama: "DAFA MAULANA", status: "LULUS" },
+            { nisn: "0105029954", nama: "DAFFA AULIA", status: "LULUS" },
+            { nisn: "0118347386", nama: "Daffa Hary Pratama", status: "LULUS" },
+            { nisn: "3108026719", nama: "DAFI ALVIN WAZARY", status: "LULUS" },
+            { nisn: "0119307085", nama: "DANU PRADANA", status: "LULUS" },
+            { nisn: "0117271857", nama: "DAPAL RAMADHAN", status: "LULUS" },
+            { nisn: "3114485804", nama: "DAVA AL KHAFI", status: "LULUS" },
+            { nisn: "0114541993", nama: "David Juanda", status: "LULUS" },
+            { nisn: "0112943554", nama: "Dendy Bramathio", status: "LULUS" },
+            { nisn: "0118033555", nama: "DESWITA ANGGRAINI BR HASIBUAN", status: "LULUS" },
+            { nisn: "0111127060", nama: "DIKI ARYADI", status: "LULUS" },
+            { nisn: "0101321343", nama: "DIMAS ANDREAN", status: "LULUS" },
+            { nisn: "0115496147", nama: "Dinara Assyifa Elka", status: "LULUS" },
+            { nisn: "0113612944", nama: "Dinda April Lestari", status: "LULUS" },
+            { nisn: "0106689951", nama: "DWIKIE ALDIANSHAH", status: "LULUS" },
+            { nisn: "0119409574", nama: "EKA RAMDANI", status: "LULUS" },
+            { nisn: "0113233363", nama: "ELSADDAY DAMAI TARIGAN", status: "LULUS" },
+            { nisn: "0112077197", nama: "Enjelina Banjarnahor", status: "LULUS" },
+            { nisn: "0117754524", nama: "ERIK SAPUTRA", status: "LULUS" },
+            { nisn: "0115358277", nama: "ERLANGGA SINAGA", status: "LULUS" },
+            { nisn: "0103936557", nama: "FADILAH KHAIRUNISA", status: "LULUS" },
+            { nisn: "3100103476", nama: "FADLI FAIRUS", status: "LULUS" },
+            { nisn: "0108354474", nama: "FADLI PRATAMA YUDHA", status: "LULUS" },
+            { nisn: "0111875442", nama: "FADLI SYAH REZA TANJUNG", status: "LULUS" },
+            { nisn: "0126239204", nama: "FADLY IRAWAN", status: "LULUS" },
+            { nisn: "0117677222", nama: "FAHDIL IBRAHIM", status: "LULUS" },
+            { nisn: "0104628389", nama: "Fahmi Arya Dinata", status: "LULUS" },
+            { nisn: "3115128477", nama: "FAHMI MANDALA PUTRA", status: "LULUS" },
+            { nisn: "0112441525", nama: "FAHRA ANJANI", status: "LULUS" },
+            { nisn: "0117003362", nama: "FAHREN", status: "LULUS" },
+            { nisn: "0101705445", nama: "FANNY PUSPITA SARI", status: "LULUS" },
+            { nisn: "0106978958", nama: "FATHIR ARIF AULIA", status: "LULUS" },
+            { nisn: "0119615901", nama: "FATIMAH AZZAHRA", status: "LULUS" },
+            { nisn: "0119682058", nama: "FAUZAN AL-IKHWAN LUBIS", status: "LULUS" },
+            { nisn: "0112258705", nama: "FAUZIAH RAHMAN", status: "LULUS" },
+            { nisn: "0115586617", nama: "FIKRI APRIANSAH", status: "LULUS" },
+            { nisn: "0114729809", nama: "FIRST EVELYN SILITONGA", status: "LULUS" },
+            { nisn: "0114604406", nama: "Fitri Febriani", status: "LULUS" },
+            { nisn: "0102609940", nama: "FLORA ADINDA CLARISSA LOI", status: "LULUS" },
+            { nisn: "0117885413", nama: "Flora Engelina Togatorop", status: "LULUS" },
+            { nisn: "0119337005", nama: "Galang Aqilah Darma", status: "LULUS" },
+            { nisn: "0118920850", nama: "Geovin Radittya Gusman", status: "LULUS" },
+            { nisn: "0115675613", nama: "GIBRAN AL FATHIR", status: "LULUS" },
+            { nisn: "0115195285", nama: "Gilang Aqilah Darma", status: "LULUS" },
+            { nisn: "3116307718", nama: "GILANG PRASETIA", status: "LULUS" },
+            { nisn: "0117819304", nama: "GISSELA NAZURA SIREGAR", status: "LULUS" },
+            { nisn: "0118854740", nama: "GITA LIS DWI APRILLIA", status: "LULUS" },
+            { nisn: "0117165863", nama: "GRES ENJELYN MENDROFA", status: "LULUS" },
+            { nisn: "0119618506", nama: "HAFIZ ALWI HARAHAP", status: "LULUS" },
+            { nisn: "0115895076", nama: "HAICHEL YORDAN MANULLANG", status: "LULUS" },
+            { nisn: "0115564888", nama: "HAKIM BRIANTORO", status: "LULUS" },
+            { nisn: "0117627166", nama: "HANA GIOVANI", status: "LULUS" },
+            { nisn: "0111060691", nama: "HARNITA NABILAH SALSABILAH", status: "LULUS" },
+            { nisn: "0101482505", nama: "Hartedy Saragih", status: "LULUS" },
+            { nisn: "0127864671", nama: "HEBRON BUNGARAN TAMBUNAN", status: "LULUS" },
+            { nisn: "0098285546", nama: "Heri Kurniawan", status: "LULUS" },
+            { nisn: "3109527881", nama: "IBNU YASSER HAIKAL NST", status: "LULUS" },
+            { nisn: "0112351654", nama: "IGNATIUS HIZKIA AMBARITA", status: "LULUS" },
+            { nisn: "0092225544", nama: "Ima Chalista", status: "LULUS" },
+            { nisn: "3104308896", nama: "IMAM PRADANA", status: "LULUS" },
+            { nisn: "0118012251", nama: "IMAM SHOLAHUDDIN NUR", status: "LULUS" },
+            { nisn: "0118892145", nama: "INDAH MAHARANI", status: "LULUS" },
+            { nisn: "0118577053", nama: "INDAH PERTIWI", status: "LULUS" },
+            { nisn: "0119361733", nama: "IRANY CHRISTIANY MARPAUNG", status: "LULUS" },
+            { nisn: "0118471278", nama: "ISMAIL PRATAMA", status: "LULUS" },
+            { nisn: "0102748144", nama: "ISNI MAULAIDA", status: "LULUS" },
+            { nisn: "0112208481", nama: "JASMINE MARWAH ABELIA", status: "LULUS" },
+            { nisn: "0115655899", nama: "JELITA JUSNIARI CIBRO", status: "LULUS" },
+            { nisn: "0098217508", nama: "JERNITA CRISTIANI SIMANJUANTAK", status: "LULUS" },
+            { nisn: "0114221901", nama: "JESSICA MELGIANA SINAGA", status: "LULUS" },
+            { nisn: "3114211142", nama: "JIHAN MIRANDA HASIBUAN", status: "LULUS" },
+            { nisn: "0112477351", nama: "JOSEPH HASIHOLAN EL MARPAUNG", status: "LULUS" },
+            { nisn: "0115462617", nama: "JULIE FATIMAH ZAHARA NASUTION", status: "LULUS" },
+            { nisn: "0103559412", nama: "KAILA SAKIA PUTRI", status: "LULUS" },
+            { nisn: "0112603015", nama: "KEISHA PRAMIKHA SARI MANAO", status: "LULUS" },
+            { nisn: "0112620020", nama: "KEISYAH ANANDA", status: "LULUS" },
+            { nisn: "0101358735", nama: "KEYSHA NABILA", status: "LULUS" },
+            { nisn: "0102089762", nama: "KHAIRUL MAHMUDA", status: "LULUS" },
+            { nisn: "0116926540", nama: "Khansa Yahya", status: "LULUS" },
+            { nisn: "0101749808", nama: "KHANZA NAZLYNA RAMADHANI", status: "LULUS" },
+            { nisn: "0108305645", nama: "KHAYLA DEA SAFRINA", status: "LULUS" },
+            { nisn: "0119525924", nama: "KIKI AULIA BR SITANGGANG", status: "LULUS" },
+            { nisn: "0109571428", nama: "KRISTIAN JULIANTO NAPITUPULU", status: "LULUS" },
+            { nisn: "0115649427", nama: "LAILAN", status: "LULUS" },
+            { nisn: "0108181289", nama: "Leonel Fransiskus Malau", status: "LULUS" },
+            { nisn: "0114048022", nama: "LEONIL M HASIBUAN", status: "LULUS" },
+            { nisn: "0111384047", nama: "Lionel Alexander Situmorang", status: "LULUS" },
+            { nisn: "0113281895", nama: "Loise Fernando Tampubolon", status: "LULUS" },
+            { nisn: "0117614314", nama: "LUCKY RAMADHAN M Z", status: "LULUS" },
+            { nisn: "0115932378", nama: "LUTFIA NAZWA", status: "LULUS" },
+            { nisn: "0113589087", nama: "M FHIZHICO ARCHALIFI", status: "LULUS" },
+            { nisn: "0103889328", nama: "M. HERDIANSYAH", status: "LULUS" },
+            { nisn: "0111437075", nama: "MAHIRA DWI SAQINAH", status: "LULUS" },
+            { nisn: "3119595420", nama: "MAICHEL PRATAMA", status: "LULUS" },
+            { nisn: "0119654284", nama: "Mardo Marcelino Simamora", status: "LULUS" },
+            { nisn: "0116651709", nama: "Mario Sigalingging", status: "LULUS" },
+            { nisn: "0114939315", nama: "MARIO CRISTIAN SITUMORANG", status: "LULUS" },
+            { nisn: "0115121485", nama: "MARISA PUTRI LUBIS", status: "LULUS" },
+            { nisn: "0117322700", nama: "Marisa Putri Pasaribu", status: "LULUS" },
+            { nisn: "0105664569", nama: "MARWAH SEPTIANI", status: "LULUS" },
+            { nisn: "0118911912", nama: "MAULANA JULIANDI", status: "LULUS" },
+            { nisn: "0113368576", nama: "MAY MAHARANI", status: "LULUS" },
+            { nisn: "0116797108", nama: "MAYSHARA", status: "LULUS" },
+            { nisn: "0113246301", nama: "MEISYA ANJANI LIVA", status: "LULUS" },
+            { nisn: "0126253985", nama: "MELATI DWI JAYANTI", status: "LULUS" },
+            { nisn: "0118452764", nama: "MELIN ROMAITO NAPITU", status: "LULUS" },
+            { nisn: "0117723171", nama: "Mhd Adha Diansyah Nur", status: "LULUS" },
+            { nisn: "0111842842", nama: "Mhd Aldi Lubis", status: "LULUS" },
+            { nisn: "0101670720", nama: "MHD. ALVIN", status: "LULUS" },
+            { nisn: "0114617162", nama: "MHD.FADLAN ALDIANO BATUBARA", status: "LULUS" },
+            { nisn: "0103656541", nama: "MIKA NATANAEL TARIGAN", status: "LULUS" },
+            { nisn: "0118216255", nama: "MONICA ELSANTI SARAGIH", status: "LULUS" },
+            { nisn: "0118771011", nama: "MUHAMAD ILHAM GUSTIAWAN", status: "LULUS" },
+            { nisn: "0112344094", nama: "MUHAMMAD BIMO AURELIO", status: "LULUS" },
+            { nisn: "0115092382", nama: "Muhammad Dwi Andika", status: "LULUS" },
+            { nisn: "3102210045", nama: "MUHAMMAD FACHRI AKHIR", status: "LULUS" },
+            { nisn: "0094329793", nama: "MUHAMMAD FAHRY AL FAHRECHY", status: "LULUS" },
+            { nisn: "3105831002", nama: "MUHAMMAD FAREL", status: "LULUS" },
+            { nisn: "3107461897", nama: "MUHAMMAD IQBAL PUTRA ALAM", status: "LULUS" },
+            { nisn: "0116540490", nama: "Muhammad Nizam Hasibuan", status: "LULUS" },
+            { nisn: "0106179338", nama: "MUHAMMAD RAFI ANANDA", status: "LULUS" },
+            { nisn: "0107857670", nama: "MUHAMMAD RAYSAH HAFIDZ", status: "LULUS" },
+            { nisn: "0115400814", nama: "Muhammad Refan Al Saufi", status: "LULUS" },
+            { nisn: "0109575937", nama: "MUHAMMAD REHAN", status: "LULUS" },
+            { nisn: "0109028388", nama: "MUHAMMAD RIFA'I", status: "LULUS" },
+            { nisn: "0102560311", nama: "MUHAMMAD RIVALDI", status: "LULUS" },
+            { nisn: "0105832804", nama: "MUHAMMAD SAMIR", status: "LULUS" },
+            { nisn: "0113829267", nama: "Muhammad Sandy", status: "LULUS" },
+            { nisn: "0112821919", nama: "MUHAMMAD SEGER", status: "LULUS" },
+            { nisn: "0117506342", nama: "Muhammad Syahyuda", status: "LULUS" },
+            { nisn: "0118152679", nama: "MUHAMMAD TEZA ALFARIDZI", status: "LULUS" },
+            { nisn: "0112098028", nama: "MUHAMMAD YAVIE FIKRI", status: "LULUS" },
+            { nisn: "0101124937", nama: "MUHAMMAD ZAKKY ALMIRZA", status: "LULUS" },
+            { nisn: "0117568054", nama: "Muthia Dewi Novita", status: "LULUS" },
+            { nisn: "3112201971", nama: "MUTIA PUSPITA", status: "LULUS" },
+            { nisn: "0116384839", nama: "NABILA", status: "LULUS" },
+            { nisn: "0113267045", nama: "Nabila Putri Nasution", status: "LULUS" },
+            { nisn: "0105828972", nama: "NADA SAPIRA", status: "LULUS" },
+            { nisn: "0114093206", nama: "NADIL SAPIRA", status: "LULUS" },
+            { nisn: "0101952005", nama: "NADINE FAUZANI", status: "LULUS" },
+            { nisn: "0109680708", nama: "NADYA WULANDARI", status: "LULUS" },
+            { nisn: "0113594006", nama: "Nasyah Latifah Tanjung", status: "LULUS" },
+            { nisn: "0117467804", nama: "NATALIA INDAH PUTRI LIMBONG", status: "LULUS" },
+            { nisn: "0119842030", nama: "Natalia Namora Hutauruk", status: "LULUS" },
+            { nisn: "0106751930", nama: "NAUFAL ABDILAH", status: "LULUS" },
+            { nisn: "3109502143", nama: "NAYLA YANDITA UTAMI", status: "LULUS" },
+            { nisn: "0113423412", nama: "NAYRA APRILLIA", status: "LULUS" },
+            { nisn: "0116895026", nama: "Naysa Amanda Sitorus", status: "LULUS" },
+            { nisn: "0094153378", nama: "NAZWA AZAHRA SIREGAR", status: "LULUS" },
+            { nisn: "0129599810", nama: "NAZWA KHAIRANI SYFA", status: "LULUS" },
+            { nisn: "0119664428", nama: "NAZWAN DAFFA", status: "LULUS" },
+            { nisn: "0113953326", nama: "Nicksen Kenedy Tampubolon", status: "LULUS" },
+            { nisn: "0102235227", nama: "Nikeshafikri Nur", status: "LULUS" },
+            { nisn: "0101502959", nama: "Nikolas Ananda Putra Sitorus", status: "LULUS" },
+            { nisn: "0111509831", nama: "NINDY CAHYA", status: "LULUS" },
+            { nisn: "0114431220", nama: "NIZAM SEPTRIANSYAH", status: "LULUS" },
+            { nisn: "0104691021", nama: "NUR AISYAHRI RAHMAH", status: "LULUS" },
+            { nisn: "0116556713", nama: "NUR KINAHTULLIJAH", status: "LULUS" },
+            { nisn: "3107005708", nama: "NUR WINDI RAHMAH BR PANGGABEAN", status: "LULUS" },
+            { nisn: "0111124198", nama: "Nuraini", status: "LULUS" },
+            { nisn: "0118570647", nama: "OBY ARBIANSYAH SIREGAR", status: "LULUS" },
+            { nisn: "0119533929", nama: "OKA PAHLEFI", status: "LULUS" },
+            { nisn: "0116300019", nama: "OKTAVIA DESI LESTARI SIREGAR", status: "LULUS" },
+            { nisn: "0114162749", nama: "POPPY ANNISA APRILIA", status: "LULUS" },
+            { nisn: "0116593084", nama: "PRAMANA ADITYA", status: "LULUS" },
+            { nisn: "0104272855", nama: "Putri", status: "LULUS" },
+            { nisn: "0117087779", nama: "Putri Cahaya", status: "LULUS" },
+            { nisn: "0117804611", nama: "Putri Syahdina", status: "LULUS" },
+            { nisn: "0114026720", nama: "Rachel Lidya Sati Samosir", status: "LULUS" },
+            { nisn: "3117571344", nama: "RADIT AFANDI HUTAGALUNG", status: "LULUS" },
+            { nisn: "0113085243", nama: "RADITTYA PRATAMA", status: "LULUS" },
+            { nisn: "0104433573", nama: "RAFFA ADHISTY", status: "LULUS" },
+            { nisn: "0114151658", nama: "Raffah Anugrah Lubis", status: "LULUS" },
+            { nisn: "0112154367", nama: "RAIHAN RAMADHAN", status: "LULUS" },
+            { nisn: "0116706997", nama: "RAJA TANTRA", status: "LULUS" },
+            { nisn: "3119831814", nama: "RAKA ADITYA", status: "LULUS" },
+            { nisn: "0114492879", nama: "RAKA ALFISYAH", status: "LULUS" },
+            { nisn: "0116501582", nama: "Rakha Irawan Nasution", status: "LULUS" },
+            { nisn: "0115667428", nama: "RARA HABRIANI", status: "LULUS" },
+            { nisn: "0118962750", nama: "RATIKA AYU SARI", status: "LULUS" },
+            { nisn: "0106544516", nama: "RATU SIL FANNY LUBIS", status: "LULUS" },
+            { nisn: "0116385992", nama: "Raysha Amanda Putri", status: "LULUS" },
+            { nisn: "0111605792", nama: "REATRI RISPIA", status: "LULUS" },
+            { nisn: "3108563405", nama: "REFAN ARVINO", status: "LULUS" },
+            { nisn: "0101368451", nama: "REHAN DANI PRATAMA", status: "LULUS" },
+            { nisn: "0119484197", nama: "RENZI APRILLIAN", status: "LULUS" },
+            { nisn: "3118228463", nama: "REYHAN AGUSTIAN PRATAMA", status: "LULUS" },
+            { nisn: "0104662423", nama: "REYNALDO ARNOIDY", status: "LULUS" },
+            { nisn: "0112193601", nama: "REZA BAYU ANSARI", status: "LULUS" },
+            { nisn: "0114017588", nama: "RHEMA JUNI LESTARI PASARIBU", status: "LULUS" },
+            { nisn: "3117466683", nama: "RICHI MUHAMMAD ARICHI PAKPAHAN", status: "LULUS" },
+            { nisn: "0101813760", nama: "RIDHO DWI UTOMO", status: "LULUS" },
+            { nisn: "0107982899", nama: "Ridho Kurniawan Simangunsong", status: "LULUS" },
+            { nisn: "0106051427", nama: "RIFA ANGGRIANI", status: "LULUS" },
+            { nisn: "0114064290", nama: "RINJANI", status: "LULUS" },
+            { nisn: "0103261507", nama: "RIO FEBRIAN", status: "LULUS" },
+            { nisn: "0113740885", nama: "Riska Indah Shafira", status: "LULUS" },
+            { nisn: "0113145671", nama: "Rizka Humaira Putri", status: "LULUS" },
+            { nisn: "0111474022", nama: "RIZKI IMANUEL SITANGGANG", status: "LULUS" },
+            { nisn: "0111846607", nama: "RIZKI MAULANA", status: "LULUS" },
+            { nisn: "0107047580", nama: "RIZKY AULIA PRATAMA", status: "LULUS" },
+            { nisn: "0103298451", nama: "RIZKY DARMAWAN", status: "LULUS" },
+            { nisn: "0107497564", nama: "ROBY AGUSTIENO MERDEKA", status: "LULUS" },
+            { nisn: "0129109698", nama: "ROMAULI SINAGA", status: "LULUS" },
+            { nisn: "0117606129", nama: "Ruben Aprilio Sibuea", status: "LULUS" },
+            { nisn: "0117156688", nama: "SAFA ARDILLAH PUTRI", status: "LULUS" },
+            { nisn: "0109282897", nama: "SAHAT PANGARIBUAN", status: "LULUS" },
+            { nisn: "0115347047", nama: "SALSABILA PUTRI", status: "LULUS" },
+            { nisn: "3112773789", nama: "SALSABILLA PUTRI", status: "LULUS" },
+            { nisn: "0116802798", nama: "SALWA KHUMAIROH", status: "LULUS" },
+            { nisn: "0109286397", nama: "Sarah Hillary Odelia Sipahutar", status: "LULUS" },
+            { nisn: "0112519036", nama: "SARWIYAH AULIA PUTRI", status: "LULUS" },
+            { nisn: "0116313494", nama: "SAWAL NOUFAL", status: "LULUS" },
+            { nisn: "0113694225", nama: "SELLY BERLIAN TURNIP", status: "LULUS" },
+            { nisn: "0107250673", nama: "SEPTIAN ADITYA", status: "LULUS" },
+            { nisn: "0121501172", nama: "SERLIN MARGARETA BR. SITANGGANG", status: "LULUS" },
+            { nisn: "0108764977", nama: "SERY WAHYUNI", status: "LULUS" },
+            { nisn: "0106667698", nama: "SHAHIRA", status: "LULUS" },
+            { nisn: "0111001314", nama: "SIGIT ARIEF MAULANA", status: "LULUS" },
+            { nisn: "0113335360", nama: "SILCY OKTAVIA", status: "LULUS" },
+            { nisn: "0112335270", nama: "SILFA NURUL SAPUTRI", status: "LULUS" },
+            { nisn: "0108302388", nama: "SITI MULYATI", status: "LULUS" },
+            { nisn: "0109385571", nama: "SITI RAMADANI SAPITRI NST", status: "LULUS" },
+            { nisn: "0111802528", nama: "SUCI RAMADHANI", status: "LULUS" },
+            { nisn: "3121152472", nama: "SYAHNASYA RAISYA BILQIS", status: "LULUS" },
+            { nisn: "0113597250", nama: "SYAHVIRA NUR RAHMA", status: "LULUS" },
+            { nisn: "0116612137", nama: "SYIRIN AQILAH HUMAIRA", status: "LULUS" },
+            { nisn: "0116195274", nama: "TALITHA TSANYA QILAWAN", status: "LULUS" },
+            { nisn: "0117227178", nama: "TANIA KHAIRANI", status: "LULUS" },
+            { nisn: "0104327076", nama: "TRI MAIDARNA ROS", status: "LULUS" },
+            { nisn: "0111315445", nama: "TRI SASENO", status: "LULUS" },
+            { nisn: "0117761652", nama: "TUBAGUS FATHIR AULIA", status: "LULUS" },
+            { nisn: "0117740413", nama: "VANESSA ULY MARPAUNG", status: "LULUS" },
+            { nisn: "0119792445", nama: "VINO RAYNATA", status: "LULUS" },
+            { nisn: "0117606960", nama: "Willi Fransisco Silaen", status: "LULUS" },
+            { nisn: "0111524461", nama: "Windy Cantika", status: "LULUS" },
+            { nisn: "0116862554", nama: "Winnel Alexander Dolok Saribu", status: "LULUS" },
+            { nisn: "0112552509", nama: "YOSEPH EBENEZER", status: "LULUS" },
+            { nisn: "3118746276", nama: "YUDA PANGESTU", status: "LULUS" },
+            { nisn: "0111163549", nama: "YUDHA PRATAMA NAINGGOLAN", status: "LULUS" },
+            { nisn: "0118073676", nama: "YULIA SARI", status: "LULUS" },
+            { nisn: "0113044339", nama: "ZAHARA", status: "LULUS" },
+            { nisn: "3119882777", nama: "ZAHRA LATIFAH RITONGA", status: "LULUS" },
+            { nisn: "0119361267", nama: "ZAHRA SYAHFITRI", status: "LULUS" },
+            { nisn: "0115770482", nama: "ZAHWA ZAHRA AL MAQHIRO", status: "LULUS" },
+            { nisn: "3119075593", nama: "ZAINAL ABIDIN", status: "LULUS" },
+            { nisn: "3111057477", nama: "ZICKO ALWIBOWO", status: "LULUS" },
+            { nisn: "0118699873", nama: "ZURAIDAH", status: "LULUS" }
+        ];
+
+        // Jadwal Pengumuman: 4 Mei 2026 jam 18:00 WIB [cite: 23]
+        const releaseDate = new Date("2026-05-04T18:00:00+07:00").getTime();
+
+        const countdownElement = document.getElementById("countdown");
+        
+        const timer = setInterval(function() {
+            const now = new Date().getTime();
+            const distance = releaseDate - now;
+
+            if (distance < 0) {
+                clearInterval(timer);
+                countdownElement.innerHTML = "Waktu pengumuman kelulusan telah tiba!";
+                countdownElement.style.color = "#2E7D32";
+                countdownElement.style.backgroundColor = "#F1F8E9";
+                countdownElement.style.borderColor = "#C5E1A5";
+            } else {
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                countdownElement.innerHTML = "Pengumuman dibuka dalam:<br><span style='font-size: 22px; display:block; margin-top:10px;'>" + days + " Hari " + hours + " Jam " + minutes + " Menit " + seconds + " Detik</span>";
+            }
+        }, 1000);
+
+        function goToCekKelulusan() {
+            const homePage = document.getElementById('home-page');
+            const cekPage = document.getElementById('cek-page');
+            
+            homePage.classList.add('hidden');
+            cekPage.classList.remove('hidden');
+            
+            cekPage.style.animation = 'none';
+            cekPage.offsetHeight; 
+            cekPage.style.animation = null; 
+        }
+
+        function goToHome() {
+            const homePage = document.getElementById('home-page');
+            const cekPage = document.getElementById('cek-page');
+            
+            cekPage.classList.add('hidden');
+            homePage.classList.remove('hidden');
+            document.getElementById('result-area').innerHTML = '';
+            document.getElementById('nisn-input').value = '';
+
+            homePage.style.animation = 'none';
+            homePage.offsetHeight; 
+            homePage.style.animation = null; 
+        }
+
+        function cekKelulusan() {
+            const input = document.getElementById('nisn-input').value.trim();
+            const resultArea = document.getElementById('result-area');
+            resultArea.innerHTML = '';
+
+            if (!input) {
+                resultArea.innerHTML = '<div class="alert">Silakan masukkan NISN terlebih dahulu.</div>';
+                return;
+            }
+
+            // Fitur ADMIN1: Tampilkan seluruh siswa [cite: 18]
+            if (input === "ADMIN1" || input === "admin1") {
+                let html = `
+                    <div class="success-box" style="padding: 15px;">
+                        <h3>Daftar Seluruh Siswa</h3>
+                        <div class="table-responsive">
+                            <table>
+                                <tr><th>NISN</th><th>Nama Siswa</th><th>Status</th></tr>
+                `;
+                dataSiswa.forEach(siswa => {
+                    html += `<tr><td>${siswa.nisn}</td><td>${siswa.nama}</td><td style="color:#2E7D32; font-weight:700;">${siswa.status}</td></tr>`;
+                });
+                html += `
+                            </table>
+                        </div>
+                    </div>`;
+                resultArea.innerHTML = html;
+                return;
+            }
+
+            let searchNisn = input;
+            let isAdminSpecific = false;
+
+            // Fitur admin untuk cek spesifik: ADMIN [NISN] [cite: 21]
+            if (input.toUpperCase().startsWith("ADMIN ")) {
+                searchNisn = input.substring(6).trim();
+                isAdminSpecific = true;
+            }
+
+            const siswa = dataSiswa.find(s => s.nisn === searchNisn);
+
+            // Validasi jika NISN tidak ditemukan di database [cite: 22]
+            if (!siswa) {
+                resultArea.innerHTML = '<div class="alert">NISN Tidak ditemukan, harap cek kembali NISN Anda</div>';
+                return;
+            }
+
+            // Validasi jadwal [cite: 23]
+            const now = new Date().getTime();
+            if (!isAdminSpecific && now < releaseDate) {
+                resultArea.innerHTML = '<div class="alert">pengumuman kelulusan belum dimulai harap di cek sesuai waktu yang telah ditentukan</div>';
+                return;
+            }
+
+            // Hasil pencarian menampilkan nama, nisn dan status kelulusan [cite: 17]
+            resultArea.innerHTML = `
+                <div class="success-box">
+                    <h3>Hasil Kelulusan</h3>
+                    <div class="data-row">
+                        <span class="data-label">Nama Siswa</span>
+                        <span class="data-value">${siswa.nama}</span>
+                    </div>
+                    <div class="data-row">
+                        <span class="data-label">NISN</span>
+                        <span class="data-value">${siswa.nisn}</span>
+                    </div>
+                    <div class="data-row" style="margin-top: 20px; text-align: center; display: block;">
+                        <span style="display:block; margin-bottom:10px; color:#558B2F;">Status:</span>
+                        <span class="status-lulus">${siswa.status}</span>
+                    </div>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>
